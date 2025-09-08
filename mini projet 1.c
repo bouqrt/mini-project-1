@@ -49,34 +49,32 @@ int main()
 
 
 
+
+    if( MOY>=90 ){
+        printf("mention Excellent");
+    }
+    else if ( MOY<90 && MOY>=80 ){
+        printf("mention Tres bien");
+    }
+    else if ( MOY<80 && MOY>=70 ){
+         printf("mention Bien");
+    }
+
+    else if ( MOY<70 && MOY>=60 ){
+         printf("mention Passable");
+    }
+
+    else {
+            printf("mention Echec");
+    }
+
+
     printf(" RAPPORT FINAl ");
     printf("\nTotal des notes : %.2f\n", total);
     printf("Moyenne : %.2f\n", MOY);
     printf("Note la plus haute : %.2f\n", MAX);
     printf("Note la plus basse : %.2f\n", MIN);
-
-
-    if( MOY>=90 ){
-        printf("mention : Excellent\n");
-    }
-    else if ( MOY<90 && MOY>=80 ){
-        printf("mention : Tres bien\n");
-    }
-    else if ( MOY<80 && MOY>=70 ){
-         printf("mention : Bien\n");
-    }
-    else if ( MOY<70 && MOY>=60 ){
-         printf("mention : Passable\n");
-    }
-    else {
-            printf("mention : Echec\n");
-    }
-
-
-
-
-
-
+    printf("Mention : %s\n", mention);
 
     if (MOY >= 50)
         printf("Resultat final : Reussi\n");
