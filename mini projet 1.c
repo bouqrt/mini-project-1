@@ -23,7 +23,7 @@ int main()
 
     total=n1+n2+n3+n4+n5;//total
 
-    MOY = total / 5;
+    MOY = total / 5;// calcul de la moyenne
 
     MAX = MIN = n1;
 
