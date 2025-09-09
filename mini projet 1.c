@@ -21,7 +21,7 @@ int main()
     printf("saisissez la 5eme note: ");
     scanf("%f", &n5);
 
-    total=n1+n2+n3+n4+n5;
+    total=n1+n2+n3+n4+n5;//total
 
     MOY = total / 5;
 
